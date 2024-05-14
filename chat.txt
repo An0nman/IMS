@@ -11,7 +11,10 @@ Messages:
 Ahmed : Currently working on video (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd)
         1) when ever you start working on the project plz first update your files so you'll get updated code.
         2) mention your video time too so if a person wants to start working he can continue from there
-        By the way if someone has time and i am working on the project you can whatsapp me i'll something else so you can work on it.
+        3) By the way if someone has time and i am working on the project you can whatsapp me i'll something else so you can work on it.
+      Currently all the doest match the video try to understand it not all just the part you need to change.
+
+        
 Shahid : 
 Zaid : 
 Ateeq :
@@ -20,4 +23,4 @@ Video Details:
 --------------
 person : Ahmed
 video link : (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd)
-time : still working
+time : 11:10

@@ -17,26 +17,9 @@ $user = ($_SESSION['user']);
 
 <body>
   <div class="Dashboard-page">
-    <div class="sidebar" id="sidebar">
-      <h1 id="sidebar-heading">IMS</h1>
-      <div class="user-details" id="user-details">
-        <img src="img/download.jpeg" alt="user image" />
-        <span id="user-details-name"><?= $user['first_name'] .' ' . $user['last_name'] ?></span>
-      </div>
-      <div class="menu">
-        <a href="" class="menulinks"><i class="fa fa-dashboard menuIcons"></i><span class="menulinksText">Dashboard</span></a>
-        <a href="" class="menulinks"><i class="fa fa-bullhorn menuIcons"></i><span class="menulinksText">Campaigns</span></a>
-        <a href="" class="menulinks"><i class="fa fa-dollar-sign menuIcons"></i><span class="menulinksText">Revenue Management</span></a>
-        <a href="" class="menulinks"><i class="fa fa-book menuIcons"></i><span class="menulinksText">Accounts Receivable</span></a>
-        <a href="" class="menulinks"><i class="fa fa-gears menuIcons"></i><span class="menulinksText">Configurations</span></a>
-        <a href="" class="menulinks"><i class="fa fa-chart-line menuIcons"></i><span class="menulinksText">Stats</span></a>
-      </div>
-    </div>
-    <div class="content">
-      <div class="top-bar">
-        <a href="" id="togglebtn"><i class="fa fa-navicon"></i></a>
-        <a href="logout.php"><i class="fa fa-power-off"></i>Logout</a>
-      </div>
+  <?php include("partials/app-Dsidebar.php") ?>
+    <div class="content">     
+    <?php include("partials/app-Dtopbar.php") ?>
       <div class="content-items"></div>
     </div>
   </div>
