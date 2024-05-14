@@ -12,8 +12,7 @@ Ahmed : Currently working on video (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPb
         1) when ever you start working on the project plz first update your files so you'll get updated code.
         2) mention your video time too so if a person wants to start working he can continue from there
         3) By the way if someone has time and i am working on the project you can whatsapp me i'll something else so you can work on it.
-      Currently all the doest match the video try to understand it not all just the part you need to change.
-
+      Currently all the code doest match the video try to understand it, not all, just the part you need to change.
         
 Shahid : 
 Zaid : 
@@ -21,6 +20,8 @@ Ateeq :
 
 Video Details:
 --------------
-person : Ahmed
-video link : (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd)
-time : 11:10
+if you are starting working than change your name and remove the given time and tag along side with it than write working,
+and when you are done working just state the time of the video and tag (not working) plz
+        person : Ahmed
+        video link : (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd)
+        time : 11:00 (not working)
