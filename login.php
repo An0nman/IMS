@@ -1,7 +1,7 @@
 <?php
     session_start();
 include('config.php');
-include('database.php');
+include('database/database.php');
 $error_message = '';
 if ($_POST) {
     // var_dump($_POST);
