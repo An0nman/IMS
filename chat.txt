@@ -1,0 +1,22 @@
+From now on we will be using this file to leave messages for each other.
+------------------------------------------------------------------------
+
+Way of leaving messages:
+------------------------
+Your name : message (for everyone)
+Your name To person : message (for a specific person)
+
+Messages:
+---------
+Ahmed : Currently working on video (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd)
+        1) when ever you start working on the project plz first update your files so you'll get updated code.
+        2) mention your video time too so if a person wants to start working he can continue from there
+        By the way if someone has time and i am working on the project you can whatsapp me i'll something else so you can work on it.
+Shahid : 
+Zaid : 
+Ateeq :
+
+Video Details:
+--------------
+video link : (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd)
+time : still working
