@@ -22,6 +22,11 @@ $user = ($_SESSION['user']);
     <div class="content">
       <?php include("partials/app-Dtopbar.php") ?>
       <div class="content-items">
+        <?php if (!empty($msg)) { ?>
+          <div id="msg">
+            <p>Added:<?= $msg ?></p>
+          </div>
+        <?php } ?>
         <form action="database/add.php" method="POST" class="user_add_form">
           <label for="first_name">First name</label>
           <input type="text" id="first_name" name="first_name">

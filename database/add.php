@@ -1,8 +1,5 @@
-<!-- <?php
-    var_dump($_POST);
-?> -->
-
 <?php
+$msg="";
 session_start();
 if (!isset($_SESSION['user'])) {
     header('Location: login.php');
@@ -13,9 +10,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     include 'database.php';
 
     // Debugging: Display the POST data
-    echo '<pre>';
-    var_dump($_POST);
-    echo '</pre>';
+    // echo '<pre>';
+    // var_dump($_POST);
+    // echo '</pre>';
 
     // Sanitize and validate inputs
     $first_name = htmlspecialchars(trim($_POST['first_name']));
@@ -44,9 +41,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         // Execute statement
         if ($stmt->execute()) {
-            echo 'User added successfully!';
+            // echo 'User added successfully!';
+            $msg="successfully added";
+            header('Location: ../users_add.php');
             // Redirect or further actions
         } else {
+            $msg="unsuccessfull";
             $errorInfo = $stmt->errorInfo();
             echo 'SQL Error: ' . $errorInfo[2];
         }
