@@ -1,13 +1,13 @@
 .user_add_form {
-    background: rgba(63, 63, 63, 0.705);
-    height: 375px;
+    background-color: #323232;
+    /* height: 425px; */
     width: 350px;
     padding: 25px 30px;
     border-radius: 8px;
     font-size: 1.4rem;
     color: #fff;
     border: 0.1px solid rgba(255, 255, 255, 0.5);
-    margin: 8% auto;
+    margin: 4% auto;
 }
 
 .user_add_form label {

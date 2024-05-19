@@ -22,15 +22,18 @@ $user = ($_SESSION['user']);
     <div class="content">
       <?php include("partials/app-Dtopbar.php") ?>
       <div class="content-items">
-        <form action="" class="user_add_form">
+        <form action="database/add.php" method="POST" class="user_add_form">
           <label for="first_name">First name</label>
           <input type="text" id="first_name" name="first_name">
           <label for="last_name">Last name</label>
           <input type="text" id="last_name" name="last_name">
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email">
+          <label for="username">User name</label>
+          <input type="text" id="username" name="username">
           <label for="password">Password</label>
           <input type="password" id="password" name="password">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email">
+          <input type="hidden" id="table" name="user">
           <button type="submit"><i class="fa fa-plus"></i>Add User</button>
         </form>
       </div>
