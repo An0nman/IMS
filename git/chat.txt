@@ -14,6 +14,8 @@ Ahmed : Currently working on video (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPb
         2) mention your video time too so if a person wants to start working he can continue from there
         3) By the way if someone has time and i am working on the project you can whatsapp me i'll something else so you can work on it.
       Currently all the code doest match the video try to understand it, not all, just the part you need to change.
+     => acha video main jo kam howa wa hai agay wo mainay gpt say karaya tha mugar usnay sahi nahi kiya
+        to wo video dakh kar sahi karlaina jo bhi kam start karaya
         
 Shahid : 
 Zaid : 
@@ -25,4 +27,4 @@ if you are starting working than change your name and remove the given time and 
 and when you are done working just state the time of the video and tag (not working) plz
         person : Ahmed
         video link : (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd)
-        time : 11:00 (not working)
+        time : 34:00 (not working)
