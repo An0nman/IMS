@@ -1,6 +1,6 @@
 <?php
     session_start();
-include('config.php');
+include('custom/config.php');
 include('database/database.php');
 $error_message = '';
 if ($_POST) {
@@ -33,7 +33,7 @@ if ($_POST) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMS Login - Inventory Management System</title>
-    <link rel="stylesheet" type="text/css" href="loginstyles.css?v=<?= $version ?>">
+    <link rel="stylesheet" type="text/css" href="styles/loginstyles.css?v=<?= $version ?>">
 </head>
 
 <body>

@@ -1,11 +1,11 @@
-<?php include'config.php'; ?>
+<?php include'custom/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IMS - Homepage</title>
-    <link rel="stylesheet" type="text/css" href="styles.css?v=<?=$version?>" />
+    <link rel="stylesheet" type="text/css" href="styles/styles.css?v=<?=$version?>" />
     <script
       src="https://kit.fontawesome.com/8cd3699074.js"
       crossorigin="anonymous"></script>
