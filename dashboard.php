@@ -20,10 +20,15 @@ $user = ($_SESSION['user']);
     <?php include("partials/app-Dsidebar.php") ?>
     <div class="content">
       <?php include("partials/app-Dtopbar.php") ?>
+
       <div class="content-items"></div>
+        </div>
+      </div>
     </div>
   </div>
   <script src="js/Dscript.js?v=<?= $version ?>"></script>
 </body>
 
 </html>
+
+
