@@ -1,0 +1,47 @@
+.user_add_form {
+    background: rgba(63, 63, 63, 0.705);
+    height: 60%;
+    width: 350px;
+    padding: 25px 30px;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    color: #fff;
+    border: 0.1px solid rgba(255, 255, 255, 0.5);
+    margin: 8% auto;
+}
+
+.user_add_form label {
+    display: block;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+
+.user_add_form input {
+    display: block;
+    height: 30px;
+    width: 90%;
+    padding: 0 5%;
+    margin-bottom: 15px;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #f685a2;
+    border-radius: 2px;
+    background: rgba(158, 158, 158, 0.356);
+    color: #fff;
+    font-size: 14px;
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.445);
+}
+.user_add_form button{
+    width: 100%;
+    padding: 8px 15px;
+    font-size: 1.4rem;
+    background: #f685a2;
+    border: none;
+    border-radius: 50px;
+    margin-top: 15px;
+    color: #fff;
+}
