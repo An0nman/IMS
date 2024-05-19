@@ -28,7 +28,3 @@ and when you are done working just state the time of the video and tag (not work
         person : Ahmed
         video link : (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd)
         time : 34:00 (not working)
-
-        person : Shahid
-        video link : (https://youtu.be/KE7mv-cwOoo?list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd)
-        time : 34:00 (Stating from) ..
