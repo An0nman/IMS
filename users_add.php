@@ -2,8 +2,19 @@
 session_start();
 if (!isset($_SESSION['user'])) header('Location: login.php');
 $user = ($_SESSION['user']);
+include 'custom/config.php';
+$msg = "";
+
+// Fetch users from database
+try {
+    include 'database/database.php'; // Include the database connection
+    $stmt = $conn->prepare("SELECT first_name, last_name, username, email FROM users");
+    $stmt->execute();
+    $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
+} catch (PDOException $e) {
+    echo 'Error: ' . $e->getMessage();
+}
 ?>
-<?php include 'custom/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,11 +33,6 @@ $user = ($_SESSION['user']);
     <div class="content">
       <?php include("partials/app-Dtopbar.php") ?>
       <div class="content-items">
-        <?php if (!empty($msg)) { ?>
-          <div id="msg">
-            <p>Added:<?= $msg ?></p>
-          </div>
-        <?php } ?>
         <form action="database/add.php" method="POST" class="user_add_form">
           <label for="first_name">First name</label>
           <input type="text" id="first_name" name="first_name">
@@ -41,6 +47,31 @@ $user = ($_SESSION['user']);
           <input type="hidden" id="table" name="user">
           <button type="submit"><i class="fa fa-plus"></i>Add User</button>
         </form>
+
+        <!-- User List Section -->
+        <div class="user_list_table">
+          <h2>User List</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <?php foreach ($users as $user) : ?>
+                <tr>
+                  <td><?= htmlspecialchars($user['first_name']); ?></td>
+                  <td><?= htmlspecialchars($user['last_name']); ?></td>
+                  <td><?= htmlspecialchars($user['username']); ?></td>
+                  <td><?= htmlspecialchars($user['email']); ?></td>
+                </tr>
+              <?php endforeach; ?>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>
