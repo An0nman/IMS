@@ -10,7 +10,7 @@
     font-size: 1.4rem;
     color: #fff;
     border: 0.1px solid rgba(255, 255, 255, 0.5);
-    margin: 4% 4%;
+    margin: 4% 2%;
 }
 
 .user_add_form label {
@@ -51,13 +51,13 @@
 .user_list_table{
     background-color: #323232;
     /* height: 425px; */
-    width: 440px;
-    padding: 10px 30px;
+    width: 600px;
+    padding: 10px 15px;
     border-radius: 8px;
     font-size: 1.4rem;
     color: #fff;
     border: 0.1px solid rgba(255, 255, 255, 0.5);
-    margin: 4% 4%;
+    margin: 2% 1%;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -71,13 +71,14 @@
 }
 .user_list_table th{
     background-color: #f685a2;
-    padding: 12px 15px;
+    padding: 6px 12px;
     font-family: sans-serif;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-wrap: nowrap;
 }
 .user_list_table tr{
     background: rgba(158, 158, 158, 0.356);
-    font-size: 18px;
+    font-size: 17px;
+    padding: 0 2px;
 }

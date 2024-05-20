@@ -8,7 +8,7 @@ $msg = "";
 // Fetch users from database
 try {
     include 'database/database.php'; // Include the database connection
-    $stmt = $conn->prepare("SELECT first_name, last_name, username, email FROM users");
+    $stmt = $conn->prepare("SELECT first_name, last_name, username, email, created_at, updated_at FROM users");
     $stmt->execute();
     $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
 } catch (PDOException $e) {
@@ -58,6 +58,8 @@ try {
                 <th>Last Name</th>
                 <th>Username</th>
                 <th>Email</th>
+                <th>Created</th>
+                <th>Updated</th>
               </tr>
             </thead>
             <tbody>
@@ -67,6 +69,8 @@ try {
                   <td><?= htmlspecialchars($user['last_name']); ?></td>
                   <td><?= htmlspecialchars($user['username']); ?></td>
                   <td><?= htmlspecialchars($user['email']); ?></td>
+                  <td><?= htmlspecialchars($user['created_at']); ?></td>
+                  <td><?= htmlspecialchars($user['updated_at']); ?></td>
                 </tr>
               <?php endforeach; ?>
             </tbody>
