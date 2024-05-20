@@ -79,6 +79,9 @@
 }
 .user_list_table tr{
     background: rgba(158, 158, 158, 0.356);
-    font-size: 17px;
+    font-size: 16px;
+}
+.user_list_table tr td{
     text-wrap: wrap;
+    padding: 0 5px;
 }
