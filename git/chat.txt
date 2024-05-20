@@ -28,3 +28,7 @@ and when you are done working just state the time of the video and tag (not work
         person : Shahid
         video link : (https://www.youtube.com/watch?v=JeAu15rwEmk&list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd&index=8)
         time : 05:00 (not working) Brain not braining (Can't understand even simple HTML because the dashboard.php is different from the tutorial.)
+
+now     person : Ahmed
+        video link: https://www.youtube.com/watch?v=JeAu15rwEmk&list=PLglf6-OPbGDfDFpnN67xqvTCR4WxQm4bd&index=8
+        time : (working)
