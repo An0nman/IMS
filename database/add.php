@@ -29,7 +29,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     try {
         // Prepare the SQL statement
-        $sql = "INSERT INTO users (first_name, last_name, username, password, email, created_at, updated_at) VALUES (:first_name, :last_name, :username, :password, :email, now(), now())";
+        $sql = "INSERT INTO users (first_name, last_name, username, password, email, created_at, updated_at) 
+                VALUES (:first_name, :last_name, :username, :password, :email, now(), now())";
         $stmt = $conn->prepare($sql);
         
         // Bind parameters
